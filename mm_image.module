@@ -1,0 +1,10 @@
+<?php
+
+include_once('mm_image.features.inc');
+
+function mm_image_nodeapi(&$node, $op, $a3 = NULL, $a4 = NULL) {
+  if($node->type == 'image_gallery' && $a4) {
+    $path = drupal_get_path('module', 'mm_image') . '/css/mm_image-gallery.css';
+    drupal_add_css($path, 'module', 'all', FALSE);
+  }
+}

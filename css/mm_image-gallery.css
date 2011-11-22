@@ -1,0 +1,15 @@
+div.node-type-image-gallery .field-field-images .field-items{
+  background: #000;
+  padding: 6px 4px 3px 4px; /* this is a silly hack */
+}
+
+div.node-type-image-gallery .field-field-images .field-items div {
+  display: inline;
+  margin: 0px;
+  padding: 0px;
+}
+
+div.node-type-image-gallery .field-field-images > .field-items > .field-item {
+  display: inline;
+  margin: 2px;
+}
