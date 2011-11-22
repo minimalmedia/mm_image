@@ -11,6 +11,43 @@ function mm_image_ctools_plugin_api() {
 }
 
 /**
+ * Implementation of hook_imagecache_default_presets().
+ */
+function mm_image_imagecache_default_presets() {
+  $items = array(
+    'image_gallery_thumbnail_medium' => array(
+      'presetname' => 'image_gallery_thumbnail_medium',
+      'actions' => array(
+        '0' => array(
+          'weight' => '0',
+          'module' => 'imagecache',
+          'action' => 'imagecache_scale_and_crop',
+          'data' => array(
+            'width' => '100',
+            'height' => '100',
+          ),
+        ),
+      ),
+    ),
+    'image_gallery_thumbnail_small' => array(
+      'presetname' => 'image_gallery_thumbnail_small',
+      'actions' => array(
+        '0' => array(
+          'weight' => '0',
+          'module' => 'imagecache',
+          'action' => 'imagecache_scale_and_crop',
+          'data' => array(
+            'width' => '50',
+            'height' => '50',
+          ),
+        ),
+      ),
+    ),
+  );
+  return $items;
+}
+
+/**
  * Implementation of hook_node_info().
  */
 function mm_image_node_info() {

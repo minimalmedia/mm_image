@@ -21,7 +21,7 @@ function mm_image_content_default_fields() {
         'exclude' => 0,
       ),
       'full' => array(
-        'format' => 'imagefield__lightshow2__image_gallery_thumbnail__original',
+        'format' => 'imagefield__lightbox2__image_gallery_thumbnail_medium__original',
         'exclude' => 0,
       ),
       '4' => array(
