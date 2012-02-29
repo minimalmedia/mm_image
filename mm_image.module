@@ -40,7 +40,7 @@ function mm_image_preprocess_node(&$variables) {
 
       // html for a styled image
       // e.g. '<img typeof="foaf:Image" src="http://mysite.com/sites/default/files/styles/banner/public/masthead.jpg" alt="" />'
-      $image_html = theme('image_style', array('style_name' => 'square_thumbnail', 'path' => $uri));
+      $image_html = theme('image_style', array('style_name' => 'mm_image_square_thumb', 'path' => $uri));
 
       $image_description = $node->field_mm_image_description[$node->language][0]['safe_value'];
 
