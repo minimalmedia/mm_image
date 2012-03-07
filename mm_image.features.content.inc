@@ -4745,53 +4745,5 @@ xgOðî‡j-tí>†Þ s€;“Ü“’OrI¯ðýÙñçÅoxòàÓtyeÐ|>§î…Cþ•p=Ýþ@º¸®h®i|¨Òøuáü-§\\Kw
     ),
   ),
 );
-$content['robot-gallery'] = (object)array(
-  'exported_path' => 'content/robot-gallery',
-  'title' => 'Robot Gallery',
-  'status' => '1',
-  'promote' => '1',
-  'sticky' => '0',
-  'type' => 'image_gallery',
-  'language' => 'und',
-  'created' => '1330529803',
-  'comment' => '2',
-  'translate' => '0',
-  'machine_name' => 'robot-gallery',
-  'body' => array(
-    'und' => array(
-      0 => array(
-        'value' => '<p>This is a sample Image Gallery. Before you create an Image Gallery yourself, you need to upload some images.&nbsp;From the menu bar, find &quot;Add Content&quot; and select &quot;Image&quot; to upload an image.</p><p>Now add an Image Gallery. Start typing the name of the image you uploaded into the autocomplete field labeled &quot;Images&quot; and select the one you want to include in the gallery. You can drag the images to reorder them.</p><p><strong>Notes</strong></p><ul><li>Images can be added to multiple galleries.</li><li>Robots are usually friendly.</li></ul>',
-        'summary' => '',
-        'format' => 'full_html',
-        'safe_value' => '<p>This is a sample Image Gallery. Before you create an Image Gallery yourself, you need to upload some images.Â From the menu bar, find "Add Content" and select "Image" to upload an image.</p>
-<p>Now add an Image Gallery. Start typing the name of the image you uploaded into the autocomplete field labeled "Images" and select the one you want to include in the gallery. You can drag the images to reorder them.</p>
-<p><strong>Notes</strong></p>
-<ul><li>Images can be added to multiple galleries.</li>
-<li>Robots are usually friendly.</li>
-</ul>',
-        'safe_summary' => '',
-      ),
-    ),
-  ),
-  'field_images' => array(
-    'und' => array(
-      0 => array(
-        'machine_name' => 'robot-0',
-      ),
-      1 => array(
-        'machine_name' => 'robot-1',
-      ),
-      2 => array(
-        'machine_name' => 'robot-2',
-      ),
-      3 => array(
-        'machine_name' => 'robot-3',
-      ),
-      4 => array(
-        'machine_name' => 'robot-4',
-      ),
-    ),
-  ),
-);
 return $content;
 }

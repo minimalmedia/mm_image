@@ -48,6 +48,9 @@ function mm_image_field_default_fields() {
           'label' => 'hidden',
           'module' => 'colorbox',
           'settings' => array(
+            'colorbox_caption' => 'auto',
+            'colorbox_gallery' => 'post',
+            'colorbox_gallery_custom' => '',
             'colorbox_image_style' => 'large',
             'colorbox_node_style' => 'large',
           ),
@@ -58,6 +61,9 @@ function mm_image_field_default_fields() {
           'label' => 'hidden',
           'module' => 'colorbox',
           'settings' => array(
+            'colorbox_caption' => 'auto',
+            'colorbox_gallery' => 'post',
+            'colorbox_gallery_custom' => '',
             'colorbox_image_style' => 'large',
             'colorbox_node_style' => 'large',
           ),
